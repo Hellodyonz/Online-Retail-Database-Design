@@ -14,9 +14,9 @@ CREATE TABLE kategori_product(
 CREATE TABLE products(
 	id int(3) PRIMARY KEY auto_increment NOT NULL,
 	nama_product VARCHAR(25) NOT NULL,
-	product_id int(3),
+	kategori_id int(3),
 	harga int(10) NOT NULL,
-	FOREIGN KEY (product_id) REFERENCES kategori_product(id)
+	FOREIGN KEY (kategori_id) REFERENCES kategori_product(id)
 );
 
 CREATE TABLE transaksi (
