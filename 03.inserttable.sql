@@ -59,7 +59,10 @@ INSERT INTO products (nama_product, kategori_id, harga) VALUES
 ('Perfume', 13, 200000),
 ('LaptopHP', 1, 7000000),
 ('Jacket', 2, 200000),
-('MotorYamaha', 3, 20000000);
+('MotorYamaha', 3, 20000000),
+('Powerbank', 1, 200000),
+('Sound', 1, 350000),
+('Tv', 1, 3000000);
 
 INSERT INTO transaksi (tanggal_transaksi, product_id, quantity, pelanggan_id) VALUES
 ('2021-03-15', 1, 2, 1),
