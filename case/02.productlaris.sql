@@ -9,4 +9,4 @@ GROUP BY
     t.product_id
 ORDER BY
     Jumlah_Pembelian DESC
-LIMIT 5;
+LIMIT 3;
