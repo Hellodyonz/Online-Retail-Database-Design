@@ -1,0 +1,1 @@
+DROP DATABASE offline_retail_database;
