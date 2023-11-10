@@ -30,4 +30,12 @@ CREATE TABLE transaksi (
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
 
+CREATE TABLE rak_barang ( --for delete table
+    id_rak INT AUTO_INCREMENT PRIMARY KEY,
+    nama_rak VARCHAR(50) NOT NULL,
+    jenis_barang VARCHAR(50) NOT NULL,
+    kapasitas INT NOT NULL
+); 
+
+
 
