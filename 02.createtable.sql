@@ -19,6 +19,7 @@ CREATE TABLE products(
 	FOREIGN KEY (kategori_id) REFERENCES kategori_product(id)
 );
 
+
 CREATE TABLE transaksi (
     id int(3) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     tanggal_transaksi DATE NOT NULL,
@@ -28,3 +29,5 @@ CREATE TABLE transaksi (
     FOREIGN KEY (pelanggan_id) REFERENCES pelanggan(id),
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
+
+
